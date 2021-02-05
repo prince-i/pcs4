@@ -125,7 +125,7 @@ if(isset($_GET['registlinename'])){
 	$stmt->execute();
 	$stmt->fetchALL();
 	if($stmt->rowCount() > 0){
-	echo '<style>.bar{zoom:65%;}</style>';
+	echo '<style>.bar{zoom:60%;}</style>';
 }
 ?>
 <div class="pt-2">
