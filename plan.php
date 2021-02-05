@@ -75,7 +75,12 @@
 									<div class="col-lg-2">
 										<div class="form-group">
 										    <label>Partsname</label>
-										    <input type="text" class="form-control form-control-lg" name= "partsname" id="parts" required autofocus="on"  min="1">
+										    <!-- <input type="text" class="form-control form-control-lg" name= "partsname" id="parts" required autofocus="on"  min="1"> -->
+										    <select class="browser-default form-control form-control-lg" name="partsname" required autofocus="on">
+										    	<option value="">----</option>
+										    	<option value="81817AN010(2)-A">QA</option>
+										    	<option value="81817AN00A(8)">APPEARANCE</option>
+										    </select>
 										</div>
 									</div>
 
